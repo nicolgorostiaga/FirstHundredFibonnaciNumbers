@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 
 using namespace std;
 void firstHundred(int previousNumber, int nextNumber);
