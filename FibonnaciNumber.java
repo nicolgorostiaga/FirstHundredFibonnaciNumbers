@@ -4,7 +4,8 @@ public class FirstHundred{
 //************************************************************************
 	public void getFirstHundred(){
 		System.out.print(previousNumber + " " + nextNumber+ " ");
-		for(int loop = 0; loop <=98; loop++){
+		for(int loop = 1; loop < 98; loop++)// loop init.(1)+loop limit(97)+previousNumber(1)+nextNumber(1)=100
+		{
 			int FibonnaciNumber = nextNumber + previousNumber;
 			previousNumber = nextNumber;
 			nextNumber = FibonnaciNumber;
@@ -16,3 +17,4 @@ public class FirstHundred{
 		FirstHundred FibonnaciNumber = new FirstHunded();
 		FibonnaciNumber.getFirstHundred();
 	}
+}
